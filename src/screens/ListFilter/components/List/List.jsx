@@ -11,7 +11,12 @@ const List = ({ item, navigation }) => {
   const dispatch = useDispatch();
   return (
     <View style={styles.container}>
-    <Pressable>
+    <Pressable
+    onPress={() => {
+      navigation.navigate("Drinks");
+      dispatch(setDrinksListItem(item[drinksType.input]));
+    }}
+    >
       <Text style={styles.textTile}>{item[drinksType.input]}</Text>
     </Pressable>
     </View>

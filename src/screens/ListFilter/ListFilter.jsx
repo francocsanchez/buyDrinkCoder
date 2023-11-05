@@ -4,7 +4,7 @@ import { Text, View, FlatList, ScrollView } from "react-native";
 
 import React, { useEffect, useState } from "react";
 import styles from "./ListFilter.style";
-import { List } from "./components";
+import { List, Search } from "./components";
 
 const ListFilter = ({ data, navigation }) => {
   const drinksType = useSelector((state) => state.drink.filterType);
@@ -41,6 +41,9 @@ const ListFilter = ({ data, navigation }) => {
 
   return (
     <View style={styles.containerView}>
+      <View style={styles.containerSearch}>
+        <Search onChangeText={setSearchText} />
+      </View>
       <FlatList
         data={filterDrinks()}
         keyExtractor={(drink, index) => index.toString()}
