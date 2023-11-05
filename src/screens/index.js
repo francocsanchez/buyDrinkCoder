@@ -7,7 +7,7 @@ import Profile from './Profile/Profile'
 import Signup from './Signup/Signup'
 import ListFilter from './ListFilter/ListFilter'
 import Drinks from './Drinks/Drinks'
-
+import Drink from './Drink/Drink'
 export {
   Home,
   Cart,
@@ -17,5 +17,6 @@ export {
   Profile,
   Location,
   ListFilter,
-  Drinks
+  Drinks,
+  Drink
 }

@@ -1,4 +1,4 @@
-import { Home, ListFilter, Drinks } from "../screens";
+import { Home, ListFilter, Drinks, Drink } from "../screens";
 
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 
@@ -15,7 +15,7 @@ function StackNavigator() {
       <Stack.Screen name="Home" component={Home} />
       <Stack.Screen name="ListFilter" component={ListFilter} />
       <Stack.Screen name="Drinks" component={Drinks} />
-      <Stack.Screen name="Drink" component={Drinks} />
+      <Stack.Screen name="Drink" component={Drink} />
     </Stack.Navigator>
   );
 }
