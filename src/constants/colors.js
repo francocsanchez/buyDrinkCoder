@@ -1,8 +1,5 @@
 export const colors = {
-  primary: "#131627",
-  secondary: "#5F54B2",
   white: "#FFFFFF",
-  grey: "#F5F4FA",
   cyan50: "#f0fbfb",
   cyan100: "#d9f2f4",
   cyan200: "#b7e6ea",
