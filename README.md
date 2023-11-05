@@ -1,4 +1,32 @@
+# Buy Drinks 🍺 
 
-# Proyecto de Moy   
+App para busqueda y creacion de cócteles.
 
-Este es el proyecto del curso de coder y trata soibre un ecommerce donde puedes agregar cosas al carrito, confirmar compras utilizar la camra 
+## Instalacion
+
+Clone el repositorio mediante el comando git clone.
+
+```bash
+# Paso 1
+git clone https://github.com/francocsanchez/buyDrinkCoder
+
+# Paso 2
+cd ./buyDrinkCoder
+
+# Paso 3 (instalación de dependencias)
+npm install
+
+# Paso 4 (ejecución del simulador)
+npm run android
+```
+
+## Uso
+
+Usuario de acceso: fsanchez@gmail.com
+Password: 1a2b3c4d
+
+Navegue entre los distintos menu buscando su trago preferido
+
+## Contacto
+
+[Contacto](https://bento.me/francocsanchez)
