@@ -1,4 +1,4 @@
-import { Details, Home, Products } from '../screens'
+import { Details, Home, Products, ListFilter } from '../screens'
 
 import { createNativeStackNavigator } from '@react-navigation/native-stack'
 
@@ -14,7 +14,7 @@ function StackNavigator() {
     >
       <Stack.Screen name="Home" component={Home} />
       <Stack.Screen name="Products" component={Products} />
-      <Stack.Screen name="ListFilter" component={Products} />
+      <Stack.Screen name="ListFilter" component={ListFilter} />
       <Stack.Screen name="Details" component={Details} />
     </Stack.Navigator>
   )

@@ -5,9 +5,11 @@ import { configureStore } from '@reduxjs/toolkit'
 import { setupListeners } from '@reduxjs/toolkit/dist/query'
 import { shopApi } from '../services/shopApi'
 import shopSlice from '../features/shop/shopSlice'
+import drinkSlice from '../features/drink/drinkSlice'
 
 const store = configureStore({
   reducer: {
+    drink: drinkSlice,
     shop: shopSlice,
     cart: cartSlice,
     auth: authSlice,

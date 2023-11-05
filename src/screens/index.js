@@ -7,6 +7,7 @@ import Orders from './Orders/Orders'
 import Products from './Products/Products'
 import Profile from './Profile/Profile'
 import Signup from './Signup/Signup'
+import ListFilter from './ListFilter/ListFilter'
 
 export {
   Home,
@@ -18,4 +19,5 @@ export {
   Signup,
   Profile,
   Location,
+  ListFilter
 }
