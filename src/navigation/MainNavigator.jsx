@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 import { setCameraImage, setUser } from "../features/auth/authSlice";
 import { useDispatch, useSelector } from "react-redux";
 

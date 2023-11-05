@@ -72,7 +72,7 @@ const Profile = ({ navigation }) => {
         <Text style={styles.textButton}>Actualizar imagen</Text>
       </Pressable>
       <Pressable style={styles.updatePhotoButton} onPress={confirmImage}>
-      <FontAwesome name="save" size={30} color="#fff" />
+        <FontAwesome name="save" size={30} color="#fff" />
         <Text style={styles.textButton}>Guardar</Text>
       </Pressable>
     </View>

@@ -12,7 +12,7 @@ export default styles = StyleSheet.create({
     width: "100%",
     height: 250,
     resizeMode: "contain",
-    marginBottom:10
+    marginBottom: 10,
   },
   loginContainer: {
     flex: 1,

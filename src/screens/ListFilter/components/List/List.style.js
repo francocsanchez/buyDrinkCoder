@@ -9,11 +9,11 @@ export default styles = StyleSheet.create({
     marginVertical: 5,
     marginHorizontal: 10,
     borderRadius: 10,
-    paddingHorizontal:15,
+    paddingHorizontal: 15,
   },
-  textTile:{
-    textTransform:'uppercase',
-    fontWeight:'600',
-    fontSize:20
-  }
+  textTile: {
+    textTransform: "uppercase",
+    fontWeight: "600",
+    fontSize: 20,
+  },
 });
